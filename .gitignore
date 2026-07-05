@@ -1,0 +1,44 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Gradle wrapper (mantém o jar, ignora o resto se não usares wrapper versionado)
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs e ficheiros temporários
+*.log
+*.tmp
+
+# Ficheiros de configuração locais/sensíveis (se algum dia adicionares testes com servidor local)
+run/
+server/
+*.jar.orig
+
+# Kotlin
+*.kotlin_module

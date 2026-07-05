@@ -1,0 +1,5 @@
+name: DamageManager
+main: com.github.udxkr.DamageController
+version: 1.0
+author: Dxkr
+description: Sistema de gestão de dano PvP (DamageManager)
